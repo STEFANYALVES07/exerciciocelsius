@@ -9,14 +9,24 @@ export const styles = StyleSheet.create({
   },
 
   input: {
-    backgroundColor: "#5081b3",
+    backgroundColor: "#bad1f5",
     fontSize: 25,
-    width: 350,
+    width: 375,
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
   },
 
   txt: {
     color: "#023161",
-    fontSize: 30,
-    fontFamily: "Helvetica",
+    fontSize: 40,
+    fontFamily: "Garamond",
+  },
+
+  btn: {
+    backgroundColor: "#5081b3",
+    padding: 15,
+    borderRadius: 30,
   },
 });
